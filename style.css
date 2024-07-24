@@ -1,0 +1,78 @@
+
+
+
+.carta-vertical{
+margin: 20px 0;
+}
+
+.carta-vertical__imagen{
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center ;
+}
+
+.carta-vertical__footer{
+
+    display: flex;
+
+    align-items: center;
+
+    &>img{
+        width: 60px;
+        margin-right: 10px;
+    }
+}
+
+.carta-vertical__titulo{
+    font-size: 20;
+    font-weight: bold;
+}
+.carta-vertical__subtitulo{
+    font-size: 16;
+    font-weight: lighter;
+}
+
+
+/* ############################################################################################## */
+/* ############################################################################################## */
+/* ############################################################################################## */
+/* ############################################################################################## */
+
+.carta-horizontal{
+    display: flex;
+    padding: 0 0 20px 0;
+}
+
+.carta-horizontal__imagen{
+    flex-grow: 1;
+    width: 200px;
+    height: auto;
+    margin: 0px 20px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center ;
+}
+
+.carta-horizontal__titulo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.carta-horizontal__subtitulo{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.carta-horizontal__footer{
+
+    display: flex;
+
+    align-items: center;
+
+    &>img{
+        width: 60px;
+        margin-right: 10px;
+
+       
+    }
+}
