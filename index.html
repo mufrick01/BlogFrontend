@@ -4,17 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <H2>nav</H2>
+    <header class="brandzone container">
+        <img class="brandzone__imagen" src="./assets/img/logos/adl.png" alt="">
+        <h2 class="brandzone__titulo">BlogFrontend</h2>
+        <!-- <h4 class="brandzone__subtitulo" >Desafío Latam - 2023</h4> -->
     </header>
     <hr>
-    <main class="container">
+    <main class="container my-5">
         <!-- primera seccion -->
         <!-- primera seccion -->
         <!-- primera seccion -->
@@ -41,7 +48,7 @@
                     <!-- CARTA HORIZONTAL -->
                     <div class="col-12 novedadesColumna__espacio">
                         <div class="carta-horizontal">
-                            <img class="carta-horizontal__imagen" src="./assets/img/posts/bootstrap.png" alt="">
+                            <img class="carta-horizontal__imagen" src="./assets/img/posts/Herencia-JS.png" alt="">
                             <div>
                                 <h4 class="carta-horizontal__subtitulo">24 Noviembre, 2022</h4>
                                 <h2 class="carta-horizontal__titulo">Herencia en JavaScript</h2>
@@ -54,10 +61,11 @@
                     </div>
                     <div class="col-12 novedadesColumna__espacio">
                         <div class="carta-horizontal">
-                            <img class="carta-horizontal__imagen" src="./assets/img/posts/bootstrap.png" alt="">
+                            <img class="carta-horizontal__imagen" src="./assets/img/posts/Etiquetas-semánticas-HTML.png"
+                                alt="">
                             <div>
                                 <h4 class="carta-horizontal__subtitulo">24 Noviembre, 2022</h4>
-                                <h2 class="carta-horizontal__titulo">Herencia en JavaScript</h2>
+                                <h2 class="carta-horizontal__titulo">Etiquetas semánticas</h2>
                                 <div class="carta-horizontal__footer">
                                     <img src="./assets/img/logos/adl.png" alt="">
                                     <h3>desafio latam</h3>
@@ -67,10 +75,10 @@
                     </div>
                     <div class="col-12 novedadesColumna__espacio">
                         <div class="carta-horizontal">
-                            <img class="carta-horizontal__imagen" src="./assets/img/posts/bootstrap.png" alt="">
+                            <img class="carta-horizontal__imagen" src="./assets/img/posts/reactComponents.png" alt="">
                             <div>
                                 <h4 class="carta-horizontal__subtitulo">24 Noviembre, 2022</h4>
-                                <h2 class="carta-horizontal__titulo">Herencia en JavaScript</h2>
+                                <h2 class="carta-horizontal__titulo">Componentes React</h2>
                                 <div class="carta-horizontal__footer">
                                     <img src="./assets/img/logos/adl.png" alt="">
                                     <h3>desafio latam</h3>
@@ -91,9 +99,11 @@
             <!-- PARTE IZQUIERDA -->
             <article class="col-7">
                 <div class="row populares">
+
                     <div class="col-6 populares__espacio">
                         <div class="carta-vertical">
-                            <img class="carta-vertical__imagen" src="./assets/img/posts/vue-components.png" alt="">
+                            <img class="carta-vertical__imagen carta-vertical__imagen--post"
+                                src="./assets/img/posts/vue-components.png" alt="">
                             <h4 class="carta-vertical__subtitulo">24 Noviembre, 2022</h4>
                             <h2 class="carta-vertical__titulo carta-vertical__titulo">Componentes Vue</h2>
                             <div class="carta-vertical__footer">
@@ -104,9 +114,10 @@
                     </div>
                     <div class="col-6 populares__espacio">
                         <div class="carta-vertical">
-                            <img class="carta-vertical__imagen" src="./assets/img/posts/vue-components.png" alt="">
+                            <img class="carta-vertical__imagen carta-vertical__imagen--post"
+                                src="./assets/img/posts/api-js.png" alt="">
                             <h4 class="carta-vertical__subtitulo">24 Noviembre, 2022</h4>
-                            <h2 class="carta-vertical__titulo carta-vertical__titulo">Componentes Vue</h2>
+                            <h2 class="carta-vertical__titulo carta-vertical__titulo">Consumo de API con JavaScript</h2>
                             <div class="carta-vertical__footer">
                                 <img src="./assets/img/logos/adl.png" alt="">
                                 <h3>desafio latam</h3>
@@ -115,9 +126,10 @@
                     </div>
                     <div class="col-6 populares__espacio">
                         <div class="carta-vertical">
-                            <img class="carta-vertical__imagen" src="./assets/img/posts/vue-components.png" alt="">
+                            <img class="carta-vertical__imagen carta-vertical__imagen--post"
+                                src="./assets/img/posts/sass.jpg" alt="">
                             <h4 class="carta-vertical__subtitulo">24 Noviembre, 2022</h4>
-                            <h2 class="carta-vertical__titulo carta-vertical__titulo">Componentes Vue</h2>
+                            <h2 class="carta-vertical__titulo carta-vertical__titulo">CSS reutilizable con Sass</h2>
                             <div class="carta-vertical__footer">
                                 <img src="./assets/img/logos/adl.png" alt="">
                                 <h3>desafio latam</h3>
@@ -126,9 +138,10 @@
                     </div>
                     <div class="col-6 populares__espacio">
                         <div class="carta-vertical">
-                            <img class="carta-vertical__imagen" src="./assets/img/posts/vue-components.png" alt="">
+                            <img class="carta-vertical__imagen carta-vertical__imagen--post"
+                                src="./assets/img/posts/bootstrap.png" alt="">
                             <h4 class="carta-vertical__subtitulo">24 Noviembre, 2022</h4>
-                            <h2 class="carta-vertical__titulo carta-vertical__titulo">Componentes Vue</h2>
+                            <h2 class="carta-vertical__titulo carta-vertical__titulo">Componentes Bootstrap</h2>
                             <div class="carta-vertical__footer">
                                 <img src="./assets/img/logos/adl.png" alt="">
                                 <h3>desafio latam</h3>
@@ -151,7 +164,7 @@
                             <img class="carta-categoria__imagen" src="./assets/img/logos/js.png" alt="">
                             <h2 class="carta-categoria__titulo">JavaScript</h2>
                         </div>
-                        
+
                         <div class="carta-categoria carta-categoria--css">
                             <img class="carta-categoria__imagen" src="./assets/img/logos/css.png" alt="">
                             <h2 class="carta-categoria__titulo">CSS</h2>
@@ -168,12 +181,21 @@
                             <img class="carta-categoria__imagen" src="./assets/img/logos/bootstrap-logo.png" alt="">
                             <h2 class="carta-categoria__titulo">Bootstrap</h2>
                         </div>
-                      
+
                     </div>
                 </div>
+                <a class="text-decoration-none text-dark" href="#">
+                    <h3 class="text-center">ver mas categorias ></h3>
+                </a>
             </aside>
         </section>
     </main>
+    <hr>
+    <footer class="brandzone container">
+        <img class="brandzone__imagen" src="./assets/img/logos/adl.png" alt="">
+        <h2 class="brandzone__titulo">BlogFrontend</h2>
+        <h4 class="brandzone__subtitulo">Desafío Latam - 2023</h4>
+    </footer>
 </body>
 
 </html>
