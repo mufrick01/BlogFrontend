@@ -16,6 +16,18 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+.titlesection{
+
+    font-weight: 700 ;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+    
+    
+    
+
+/* #######################################################3 */
+
 .carta-vertical{
 display: flex;
 flex-direction: column;
@@ -117,7 +129,7 @@ margin-bottom: 50px;
 display: flex;
 justify-content:space-between;
 align-items: center;
-border-radius: 50px;
+border-radius: 30px;
 padding: 20px;
 margin-bottom: 10px;
 }
