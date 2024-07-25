@@ -14,16 +14,19 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    color: #171717;
 }
 
 .titlesection{
 
     font-weight: 700 ;
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 50px;
 }
     
-    
+a{
+    color: #171717;
+}    
     
 
 /* #######################################################3 */
